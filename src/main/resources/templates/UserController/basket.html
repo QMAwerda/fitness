@@ -67,28 +67,6 @@
         <h3 th:if="${basket.isEmpty() == true}">Корзина пуста</h3>
         <form th:if="${basket.isEmpty() == false}" th:method="POST" th:action="@{/basketOperation}">
             <table class="table" style="margin-top: 70px">
-                <thead>
-                    <tr>
-                        <th scope="col" class="border-0 bg-light">
-                            <div class="p-2 px-3 text-uppercase">Продукт</div>
-                        </th>
-                        <th scope="col" class="border-0 bg-light">
-                            <div class="py-2 text-uppercase">Название</div>
-                        </th>
-                        <th scope="col" class="border-0 bg-light">
-                            <div class="py-2 text-uppercase">Id</div>
-                        </th>
-                        <th scope="col" class="border-0 bg-light">
-                            <div class="py-2 text-uppercase">Цена</div>
-                        </th>
-                        <th scope="col" class="border-0 bg-light">
-                            <div class="py-2 text-uppercase">Количество</div>
-                        </th>
-                        <th scope="col" class="border-0 bg-light">
-                            <div class="py-2 text-uppercase">Удалить</div>
-                        </th>
-                    </tr>
-                </thead>
                 <tbody>
                     <tr th:each="basket : ${basket}">
                         <input type="hidden" name="basketToDeleteId" id="basketToDeleteId">
@@ -102,7 +80,6 @@
                             th:text="${productService.getProductById(basket.getProductId()).getName()}">
                             <strong>Name</strong>
                         </td>
-                        <td class="border-0 align-middle" th:text="${basket.getId()}"><strong>id</strong></td>
                         <td class="border-0 align-middle"
                             th:text="${productService.getProductById(basket.getProductId()).getPrice() * basket.getProductCount()} + ' р.'">
                             <strong>price</strong>
@@ -124,8 +101,8 @@
         </h5>
     </div>
     <hr th:if="${basket.isEmpty() == false}">
-    <form th:if="${basket.isEmpty() == false}" class="row col-lg-4 col-sm-6" th:method="POST"
-        th:action="@{/sendBasket}">
+    <form th:if="${basket.isEmpty() == false}" class="row col-lg-4 col-sm-6" style="margin-left:65% !important"
+        th:method="POST" th:action="@{/sendBasket}">
         <div class="col-12">
             <label for="inputAddress" class="form-label">Адрес</label>
             <input name="address" type="text" class="form-control" id="inputAddress" required>
