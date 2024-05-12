@@ -1,0 +1,17 @@
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/optic/services/CriteriaService.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/optic/OpticApplication.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/optic/models/Type.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/optic/repositories/IUserRepository.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/optic/SpringSecurityConfig.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/optic/services/BasketService.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/optic/models/Basket.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/optic/services/UserService.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/optic/models/Product.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/optic/services/EmailService.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/optic/models/User.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/optic/services/TypeService.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/optic/repositories/IProductRepository.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/optic/services/ProductService.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/optic/repositories/IBasketRepository.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/optic/controllers/UserController.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/optic/repositories/ITypeRepository.java
