@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.mirea</groupId>
-    <artifactId>Optic</artifactId>
+    <artifactId>Fitness</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>petshop</name>
-    <description>PetShop</description>
+    <name>fitness</name>
+    <description>Fitness</description>
     <properties>
         <java.version>11</java.version>
     </properties>
